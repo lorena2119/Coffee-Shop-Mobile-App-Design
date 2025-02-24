@@ -1,0 +1,11 @@
+:root{
+    --color-1: #C67C4E;
+    --color-2: #EDD6C8;
+    --color-3: #313131;
+    --color-4: #E3E3E3;
+    --color-5: #F9F2ED;
+}
+@font-face {
+    font-family: "example";
+    src: url(../storage/fonts/example.ttf);
+}
