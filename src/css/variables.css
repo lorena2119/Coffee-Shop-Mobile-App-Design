@@ -1,11 +1,39 @@
-:root{
+:root {
     --color-1: #C67C4E;
     --color-2: #EDD6C8;
     --color-3: #313131;
     --color-4: #E3E3E3;
     --color-5: #F9F2ED;
+    --color-1: #FFFFFF;
+    --color-2: #FBBE21;
+    --color-4: #A2A2A2;
+    --color-5: #242424;
+    --color-6: #F9F9F9;
+    --color-7: #05050500;
+    --color-8: #050505;
+    --color-10: #111111;
+    --color-11: #313131;
+    --color-12: #D8D8D8;
+    --color-13: #2A2A2A;
+    --color-14: #EDEDED35;
+    --color-15: #ED5151;
+    --color-17: #909090;
+    --color-19: #EDEDED;
+    --color-20: #36C07E;
+    --color-21: #101010;
 }
+
 @font-face {
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
+}
+
+@font-face {
+    font-family: "Sora-Regular";
+    src: url(../storage/fonts/Sora/static/Sora-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Sora-SemiBold";
+    src: url(../storage/fonts/Sora/static/Sora-SemiBold.ttf);
 }

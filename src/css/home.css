@@ -1,0 +1,32 @@
+@import url(variables.css);
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(250deg, var(--color-10),65%, var(--color-11));
+    display: flex;
+    width: 600px;
+    height: 280px;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h5{
+    font-size: 14px;
+    font-weight: 1;
+    font-family: "Sora-Regular";
+    color: var(--color-4);
+}
+.lugar{
+    font-family: "Sora-SemiBold";
+    color: var(--color-12);
+}
+search-container{
+    display: flex;
+    margin: 20px;
+}
