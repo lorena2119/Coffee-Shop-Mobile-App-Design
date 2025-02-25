@@ -4,3 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+
+}
+header p{
+    font-family: "sora-semibold";
+    color: var(--color-6);
+
+}
+header img:first-child{
+    padding: 14.25px 17.75px;
+    object-fit: cover;
+}
+header img:last-child{
+padding: 13px 12px 11.5px 11.53px;
+object-fit: cover;
+}
+
