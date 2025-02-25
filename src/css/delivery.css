@@ -1,0 +1,56 @@
+@import url(variables.css);
+
+._main{
+    position:relative;
+    font-family:"Inter_28pt-Bold";
+    /* color: var(--color-5); */
+    left:18px;   
+    font-size:20px;
+    overflow: hidden;
+    
+}
+/* 
+Esta es la seccion del delivery info
+-Ver como sobreponer esta seccion sobre la seccion del mapa
+-Esta es la caja para almacenar los dos botones, estas medidas no aplican para los botones, son independientes
+-Medidas:
+Top: 68px
+L-R: 24px
+378px a la seccion de abajo de informacion
+
+Las dimenciones generales de esta caja son:
+
+
+Mas o menos el mapa tiene que tener un tamaño de 446px
+*/
+._main ._header{
+    /* margin-bottom: -34px; */
+    background-color: var(--color-2);
+
+}
+
+
+/*
+Esta es la caja que va a contener el mapa en general, va a ser una sola para todo el mapa
+La dimension del mapa debe de ser de 446px
+De momento, se supone que no es esa, la dimension total del mapa debe de ser el fondo total de la pantalla, donde tanto la seccion superior del header como la de info deben sobreponerse ante la posicion del mapa siendo este un background
+Ver como se hace para importarse el mapa
+*/
+
+._main ._map{
+    background-color: var(--color-4);
+}
+
+
+/* 
+Esta es la caja que contiene de manera general todo el contenido de informacion de abajo, se deben de subseccionar cada parte, siendo un total de 6 subsecciones
+1 seccion) pertenece a la linea que aparece entre el borde de la caja y la seccion 2
+2 seccion) es un parrafo de texto que contiene el tiempo restante para que llegue el pedido
+3 seccion) Es un parrafo que contiene el nombre del delivery
+4 seccion) es una serie de lineas las cuales dividen las dos primeras secciones de las otras 2
+5 seccion) es una caja mas general la cual contiene 3 datos, una imagen, un titulo y un parrafo, ubicados 1:2, donde la imagen ocupa una pequeña parte de la seccion a la izquierda y el titulo y el parrafo ocupan la parte derecha
+6 seccion) es una caja que contiene 4 elementos, la imagen del delivery, el nombre del delivery, su cargo y un boton para llamar, 1:2:1 la manera en la que estan distribuidos
+*/
+._info{
+    background-color: var(--color-1);
+}
