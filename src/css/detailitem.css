@@ -4,12 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: var(--color-9);
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px;
+    padding: 24px 24px 0;
 
 }
 header p{
@@ -26,3 +28,72 @@ padding: 13px 12px 11.5px 11.53px;
 object-fit: cover;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+main > img{
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main .main-content .title h1{
+    font-family: "sora-semibold";
+    font-size: 20px;
+    color: var(--color-6);
+    padding-bottom: 4px;
+}
+
+main .main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+
+main .main-content .title .rating{
+    display: flex;
+    padding: 16px 0px 0px;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.light{
+    font-family: "sora-regular";
+    font-size: 12px;
+    color: var(--color-7);
+}
+
+main .main-content .title .rating .score{
+    font-family: "sora-semibold";
+    color: var(--color-6);
+}
+
+main .main-content .title .rating img{
+    object-fit: cover;
+
+}
+main .main-content .icons {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+
+}
+
+main .main-content .icons img{
+    padding: 12px;
+    background-color: var(--color-8);
+    border-radius: 12px;
+
+}
+
+main hr{
+    height: 1px;
+    border: none;
+    background-color: var(--color-4);
+    margin: 16px;
+}

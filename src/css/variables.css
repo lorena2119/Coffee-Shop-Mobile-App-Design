@@ -5,6 +5,9 @@
     --color-4: #E3E3E3;
     --color-5: #F9F2ED;
     --color-6: #242424;
+    --color-7: #A2A2A2;
+    --color-8: rgba(237, 237, 237, 0.35);
+    --color-9: #F9F9F9;
 }
 @font-face {
     font-family: "example";
@@ -14,4 +17,9 @@
 @font-face {
     font-family: "Sora-SemiBold";
     src: url(../storage/fonts/Sora/static/Sora-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Sora-Regular";
+    src: url(../storage/fonts/Sora/static/Sora-Regular.ttf);
 }
