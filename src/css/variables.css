@@ -8,9 +8,10 @@
     --color-7: #A2A2A2;
     --color-8: rgba(237, 237, 237, 0.35);
     --color-9: #F9F9F9;
+    --color-10: #FFFFFF;
 }
 @font-face {
-    font-family: "example";
+    font-family: "example"; 
     src: url(../storage/fonts/example.ttf);
 }
 

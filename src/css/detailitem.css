@@ -124,16 +124,52 @@ main .description details p{
 details>summary {
     height: 63px;
     list-style: none;
-  }
-  summary::-webkit-details-marker {
+}
+summary::-webkit-details-marker {
     display: none
-  }
+}
   
-  summary::after {
+summary::after {
     content: '.. Read more';
     color: var(--color-1);
     font-family: "sora-semibold";
-  }
-  details[open] summary:after {
+}
+details[open] summary:after {
     content: " ";
-  }
+}
+
+.size{
+    padding: 0 24px 24px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.size p{
+    font-family: "sora-semibold";
+    color: var(--color-6);
+    padding-bottom: 16px;
+}
+
+.size .size-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.size .size-container a{
+    padding: 12px 43px;
+    background-color: var(--color-10);
+    border: 1px solid var(--color-4);
+    border-radius: 12px;
+    color: var(--color-6);
+    text-decoration: none;
+    font-family: "sora-regular";
+    font-size: 14px;
+}
+
+.size .size-container a:active{
+    background-color: var(--color-5);
+    border: 1px solid var(--color-1);
+    color: var(--color-1);
+}
