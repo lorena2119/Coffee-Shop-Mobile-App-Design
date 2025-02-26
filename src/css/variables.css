@@ -23,3 +23,8 @@
     font-family: "Sora-Regular";
     src: url(../storage/fonts/Sora/static/Sora-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Sora-Light";
+    src: url(../storage/fonts/Sora/static/Sora-Light.ttf);
+}

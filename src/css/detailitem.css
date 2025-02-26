@@ -97,3 +97,43 @@ main hr{
     background-color: var(--color-4);
     margin: 16px;
 }
+
+main .description p{
+    font-family: "sora-semibold";
+    padding-bottom: 10px;
+
+}
+
+main .description details{
+    font-family: "sora-light";
+    color: var(--color-7);
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+
+
+}
+
+main .description details p{
+    font-family: "sora-light";
+    font-weight: normal;
+    text-overflow: ellipsis;
+
+}
+
+details>summary {
+    height: 63px;
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  summary::after {
+    content: '.. Read more';
+    color: var(--color-1);
+    font-family: "sora-semibold";
+  }
+  details[open] summary:after {
+    content: " ";
+  }
