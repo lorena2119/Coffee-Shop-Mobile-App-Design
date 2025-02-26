@@ -122,7 +122,7 @@ header {
     width: 327px;
     height: 140px;
     margin-left: 27px;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 
@@ -147,7 +147,7 @@ header {
 /*Promo*/
 .promo-label {
     position: relative;
-    top: -185px;
+    top: -190px;
     margin-left: 37px;
     font-family: "Sora-SemiBold";
     font-size: 14px;
@@ -187,5 +187,39 @@ header {
     font-family: "Sora-SemiBold";
     font-size: 32px;
     color: var(--color-1);
+}
+
+.carousel-container {
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Oculta la barra de desplazamiento */
+    -ms-overflow-style: none;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+.category {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.category.selected {
+    background-color: #c67c4e;
+    color: white;
 }
 
