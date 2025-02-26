@@ -12,7 +12,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 320px;
+    height: 375px;
     width: 100%;
     margin-top: -60px;
     padding-top: 24px;
@@ -27,7 +27,7 @@ header {
     position: relative;
     font-family: "Sora-Regular";
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
     color: var(--color-4);
 
 }
@@ -54,6 +54,8 @@ header {
     font-family: "Sora-Regular";
 }
 
+
+
 .input_text {
     font-family: "Sora-Regular";
 }
@@ -64,11 +66,11 @@ header {
     border-radius: 15px;
     outline: none;
     font-size: 16px;
-    width: 75%;
-    height: 55px;
-    background: linear-gradient(to bottom left, #111111,  #313131);
-    margin-left: -30px;
-    padding-left: 20px;
+    width: 259px;
+    height: 52px;
+    background: linear-gradient(to bottom left, #313131, #111111);
+    margin-left: -1px;
+    padding-left: 35px;
     border: none;
 }
 
@@ -90,23 +92,28 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-top: -55px;
-    margin-left: 280px;
+    margin-top: -52px;
+    margin-left: 295px;
+    width: 52px;
+    height: 52px;
 }
 
+/*La imágen del botón que esta al lado de la barra de búsqueda*/
 .filter-button img {
     width: 20px;
     height: 20px;
 }
 
+/*Contiene todo lo del banner y lo que está dentro de él, como las letras*/
 .promo-container {
     position: absolute;
     top: 150px;
-    margin-left: -25px;
+    margin-left: -5px;
     width: 95%;
 
 }
 
+/*Mediciones del Banner de los cafes*/
 .banner {
     display: flex;
     justify-content: center;
@@ -114,10 +121,12 @@ header {
     border-radius: 15px;
     width: 327px;
     height: 140px;
-    margin-left: 15px;
+    margin-left: 27px;
     margin-top: 100px;
 }
 
+
+/*Línea debajo del Buy one get..*/
 .line1 {
     position: relative;
     top: -83px;
@@ -126,6 +135,7 @@ header {
     width: 200px;
 }
 
+/*Línea debajo del one FREE*/
 .line2 {
     position: relative;
     top: -75px;
@@ -133,3 +143,49 @@ header {
     width: 149px;
 
 }
+
+/*Promo*/
+.promo-label {
+    position: relative;
+    top: -185px;
+    margin-left: 37px;
+    font-family: "Sora-SemiBold";
+    font-size: 14px;
+    color: var(--color-12);
+    background-color: #ED5151;
+    width: 60px;
+    height: 26px;
+    border-radius: 8px;
+    margin-right: 320px;
+    text-align: center;
+    font-weight: 10px;
+    align-items: center;
+}
+
+/*Esto para que lo que dice "Promo", no afecte todo, si no que solamente baje lo que dice Promo y no se baje
+  junto con el background*/
+.p {
+    position: relative;
+    top: 3px;
+}
+
+/*Buy one get...*/
+.promo-text {
+    position: relative;
+    top: -183px;
+    margin-left: 37px;
+    font-family: "Sora-SemiBold";
+    font-size: 32px;
+    color: var(--color-1);
+}
+
+/*one FREE...*/
+.promo-text2 {
+    position: relative;
+    top: -183px;
+    margin-left: 37px;
+    font-family: "Sora-SemiBold";
+    font-size: 32px;
+    color: var(--color-1);
+}
+
