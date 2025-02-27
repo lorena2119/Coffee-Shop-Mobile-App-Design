@@ -34,7 +34,7 @@ header {
     font-family: "Sora-Regular";
     font-weight: 400;
     font-size: 12px;
-    color: var(--color-4);
+    color: var(--color-2);
 
 }
 
@@ -42,6 +42,7 @@ header {
     display: flex;
     margin-left: 170px;
     margin-top: -18px;
+    color: #313131;
 }
 
 .place {
@@ -58,6 +59,7 @@ header {
     width: 10px;
     height: 40px;
     font-family: "Sora-Regular";
+    color: #313131;
 }
 
 
@@ -73,7 +75,7 @@ header {
     font-size: 16px;
     width: 300px;
     height: 52px;
-    background: linear-gradient(to bottom left, #ffffff, #313131);
+    background: linear-gradient #050505;
     margin-left: -20px;
     border: none;
     padding-left: 20px;
@@ -109,97 +111,50 @@ header {
 
 }
 
-/*Contiene todo lo del banner y lo que está dentro de él, como las letras*/
-.promo-container {
-    position: absolute;
-    top: 125px;
-    margin-left: 15px;
-    width: 95%;
-
-}
-
-/*Mediciones del Banner de los cafes*/
-.banner {
+.promo {
+    margin-top: 24px;
+    width: 100%;
+    height: 160px;
+    background-image: url(../storage/img/Banner-1.png);
+    position: relative;
+    background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    width: 400px;
-    height: 180px;
-    margin-left: -10px;
-    margin-top: 160px;
+    padding-left: 24px;
+    border-radius: 20px;
 }
 
-/*Línea debajo del Buy one get..*/
-.line1 {
-    position: relative;
-    top: -100px;
-    margin-left: 20px;
-    height: 37px;
-    width: 245px;
-}
-
-/*Línea debajo del one FREE*/
-.line2 {
-    position: relative;
-    top: -60px;
-    margin-left: -249px;
-    width: 180px;
-    height: 30px;
-
-}
-
-/*Promo*/
-.promo-label {
-    position: relative;
-    top: -200px;
-    margin-left: 20px;
-    font-family: "Sora-SemiBold";
-    font-size: 14px;
-    color: var(--color-12);
+.promo p {
     background-color: #ED5151;
-    width: 70px;
-    height: 26px;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: 10px;
-    align-items: center;
-}
-
-/*Esto para que lo que dice "Promo", no afecte todo, si no que solamente baje lo que dice Promo y no se baje
-  junto con el background*/
-.p {
-    position: relative;
-    top: 3px;
-}
-
-/*Buy one get...*/
-.promo-text {
-    position: relative;
-    top: -185px;
-    margin-left: 20px;
     font-family: "Sora-SemiBold";
-    font-size: 40px;
-    color: var(--color-1);
+    color: var(--color-6);
+    font-size: 14px;
+    padding: 4px 7px;
+    border-radius: 7px;
+    width: fit-content;
+    top: 8px;
+    position: absolute;
+
 }
 
-/*one FREE...*/
-.promo-text2 {
-    position: relative;
-    top: -185px;
-    margin-left: 22px;
+.promo strong {
+    font-size: 32px;
     font-family: "Sora-SemiBold";
-    font-size: 35px;
-    color: var(--color-1);
+    width: fit-content;
+    color: var(--color-6);
+    background-image: url(../storage/img/Line.png);
+    margin-top: 5px;
 }
 
 .carousel-container {
     align-items: center;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     margin-top: 120px;
     font-family: "Sora-Regular";
     margin-left: 35px;
+
 }
 
 .carousel {
@@ -594,4 +549,49 @@ header {
     margin-left: 110px;
     width: 32px;
     height: 32px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: var(--color-6);
+    z-index: 10;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.seccionfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 56px 34px;
+    gap: 35px;
+}
+
+.seccionfooter a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion__footer img {
+    height: 24px;
+    width: 24px;
+}
+
+.seleccionado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
 }
