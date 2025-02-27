@@ -81,7 +81,7 @@ header {
 /*Edita lo que está dentro del la búsqueda, es decir el Search Coffee*/
 ::placeholder {
     padding-left: 25px;
-    color: #A2A2A2;
+    color: #FFFFFF;
     font-size: 16px;
 
 }
@@ -132,8 +132,8 @@ header {
 /*Línea debajo del Buy one get..*/
 .line1 {
     position: relative;
-    top: -90px;
-    margin-left: 53px;
+    top: -100px;
+    margin-left: 55px;
     height: 27px;
     width: 200px;
 }
@@ -141,16 +141,16 @@ header {
 /*Línea debajo del one FREE*/
 .line2 {
     position: relative;
-    top: -75px;
-    margin-left: 53px;
-    width: 149px;
+    top: -60px;
+    margin-left: -204px;
+    width: 155px;
 
 }
 
 /*Promo*/
 .promo-label {
     position: relative;
-    top: -200px;
+    top: -180px;
     margin-left: 53px;
     font-family: "Sora-SemiBold";
     font-size: 14px;
@@ -175,7 +175,7 @@ header {
 /*Buy one get...*/
 .promo-text {
     position: relative;
-    top: -188px;
+    top: -174px;
     margin-left: 54px;
     font-family: "Sora-SemiBold";
     font-size: 32px;
@@ -185,7 +185,7 @@ header {
 /*one FREE...*/
 .promo-text2 {
     position: relative;
-    top: -184px;
+    top: -170px;
     margin-left: 54px;
     font-family: "Sora-SemiBold";
     font-size: 32px;
@@ -305,8 +305,8 @@ header {
 .Flat {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-top: -240px;
+    margin-left: 260px;
+    margin-top: -238px;
     width: 156px;
     height: 238px;
     border-radius: 20px;
@@ -323,6 +323,11 @@ header {
     height: 128px;
     border-radius: 15px;
     background-color: #ffffff;
+    justify-items: center;
+
+}
+.Flat1 {
+    display: flex;
     justify-items: center;
 
 }
