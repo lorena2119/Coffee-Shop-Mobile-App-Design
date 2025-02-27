@@ -4,8 +4,14 @@
     --color-3: #313131;
     --color-4: #E3E3E3;
     --color-5: #F9F2ED;
+    --color-6: #36C07E;
 }
 @font-face {
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
+}
+
+@font-face {
+    font-family: "Sora-Regular";
+    src: url(../storage/fonts/Sora/static/Sora-Regular.ttf)
 }

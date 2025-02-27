@@ -131,27 +131,74 @@ body{
 }
 
 ._time_left {
-    background-color:rgb(96, 121, 145); 
-    font-weight: bold;
+    background-color:rgb(41, 194, 92); 
+    /* font-weight: bold; */
+    font-family: Sora-Regular;
+    font-sizing: 16px;
 }
 
 ._deliver_name {
-    background-color: #dee2e6; 
+    background-color:rgb(24, 93, 163); 
     display: flex;
     justify-content: center;
+    font-family: Sora-Regular;
+    margin-bottom: 0px;
+}
+._deliver_name p:first-child  {
+    color:var(--color-4);
 }
 ._deliver_name p:last-child  {
-    color:rgb(6, 122, 238);
-    font-weight: bold;
+    color:var(--color-3);
 }
 
 ._green_lines_divider {
     background-color: #cff4fc; 
     color:rgb(3, 32, 5);
+    display: flex;
+    margin-top:9px;
 }
+
+._green_lines_divider ._green_line{
+    background-color:rgb(32, 130, 228); 
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 16px;
+    height: 4px;
+    width: 71.25px;
+    background-color: var(--color-6);
+}
+
+._green_lines_divider ._green_line:last-child{
+    background-color:rgb(32, 130, 228); 
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 16px;
+    height: 4px;
+    width: 71.25px;
+    background-color: gray;
+}
+
 
 ._deliver_info_status {
     background-color: #d1e7dd; 
+    display: flex;
+    margin-top: 16px;
+}
+
+._deliver_info_status ._deliver_info_status_bike{
+    position: absolute;
+    background-color: green;
+    margin: 10.5px 259px 10.5px 10.5px;
+    padding: 56px;
+    width: 0px;
+    height: 0px;
+}
+
+._deliver_info_status ._deliver_info_status_text {
+    background-color:rgb(25, 160, 99); 
+    text-align: left;
+    margin: 8px 0px 8px 84px;
+
 }
 
 ._info > section:last-child {
