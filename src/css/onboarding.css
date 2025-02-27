@@ -8,7 +8,43 @@
 
 header img{
     height: 536px;
-    width: 375px;
+    width: 100%;
     object-fit: cover;
+}
 
+main{
+    display: flex;
+    flex-direction: column;
+    background: rgb(5,5,5);
+    background: linear-gradient(rgba(5,5,5,0) 0%, rgba(5,5,5,1) 24%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -79px;
+    padding: 24px;
+}
+
+main h1{
+    font-size: 32px;
+    color: var(--color-6);
+    font-family: "sora-semibold";
+
+}
+
+main p{
+    font-size: 14px;
+    color: var(--color-9);
+    font-family: "sora-regular";
+    padding: 8px 0px 32px;
+}
+
+main a{
+    font-size: 16px;
+    background-color: var(--color-1);
+    font-family: "sora-semibold";
+    text-decoration: none;
+    color: var(--color-6);
+    padding: 16px;
+    width: 100%;
+    border-radius: 16px;
 }
