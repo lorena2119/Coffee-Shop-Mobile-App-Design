@@ -146,3 +146,21 @@ nav {
     width: 15px;
     height: 15px;
 }
+
+hr{
+    border: 1px solid var(--color-6);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.linea {
+    display: flex;
+    
+    align-items: center;
+    border: none;
+    border-top: 1px solid #e0e0e0; 
+    height: 1px;
+    width: 80%; /* Ajusta el ancho */
+    margin: 10px 0; /* Espaciado arriba y abajo */
+    
+}
