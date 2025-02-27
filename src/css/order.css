@@ -196,3 +196,45 @@ hr{
     margin: 0;
 }
 /* aqui se termina los detalles del item */
+
+
+.portion-selector {
+    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.portion-selector button {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.portion-selector input {
+    width: 24px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.discount-section {
+    margin-bottom: 20px;
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.discount-container h2 {
+    font-family: "sora-semibold";
+    font-size: 14px;
+    margin: 0;
+    flex-grow: 1;
+}
