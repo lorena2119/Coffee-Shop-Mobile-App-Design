@@ -152,7 +152,6 @@ hr{
     width: 100%;
     margin-bottom: 20px;
 }
-
 .linea {
     display: flex;
     
@@ -161,6 +160,21 @@ hr{
     border-top: 1px solid #e0e0e0; 
     height: 1px;
     width: 80%; /* Ajusta el ancho */
-    margin: 10px 0; /* Espaciado arriba y abajo */
-    
+    margin: 10px 0; /* Espaciado arriba y abajo */    
+
+}
+
+/* esto es el contenedor del item */
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+/* esta es la unica iagen que tiene el coffee */
+.img-coffe {
+    width: 54px;
+    height: 54px;
+    border-radius: 12px;
 }
