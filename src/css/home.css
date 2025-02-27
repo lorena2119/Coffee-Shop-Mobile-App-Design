@@ -20,7 +20,8 @@ header {
 
 .main_header {
     margin: 30px;
-    margin-top: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 .main_header h1 {
@@ -40,7 +41,7 @@ header {
 
 .place {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: "Sora-SemiBold";
     font-size: 16px;
     color: var(--color-12);
@@ -55,7 +56,6 @@ header {
 }
 
 
-
 .input_text {
     font-family: "Sora-Regular";
 }
@@ -66,20 +66,19 @@ header {
     border-radius: 15px;
     outline: none;
     font-size: 16px;
-    width: 259px;
+    width: 300px;
     height: 52px;
     background: linear-gradient(to bottom left, #313131, #111111);
-    margin-left: -1px;
-    padding-left: 35px;
+    margin-left: -20px;
     border: none;
+    padding-left: 20px;
 }
 
-
+/*Edita lo que está dentro del la búsqueda, es decir el Search Coffee*/
 ::placeholder {
-    padding-left: 15px;
+    padding-left: 25px;
     color: #A2A2A2;
     font-size: 16px;
-
 
 }
 
@@ -93,7 +92,7 @@ header {
     justify-content: center;
     cursor: pointer;
     margin-top: -52px;
-    margin-left: 295px;
+    margin-left: 313px;
     width: 52px;
     height: 52px;
 }
@@ -102,12 +101,13 @@ header {
 .filter-button img {
     width: 20px;
     height: 20px;
+
 }
 
 /*Contiene todo lo del banner y lo que está dentro de él, como las letras*/
 .promo-container {
     position: absolute;
-    top: 150px;
+    top: 125px;
     margin-left: -5px;
     width: 95%;
 
@@ -119,18 +119,17 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    width: 327px;
-    height: 140px;
-    margin-left: 27px;
+    width: 355px;
+    height: 160px;
+    margin-left: 13px;
     margin-top: 160px;
 }
-
 
 /*Línea debajo del Buy one get..*/
 .line1 {
     position: relative;
-    top: -83px;
-    margin-left: 37px;
+    top: -90px;
+    margin-left: 53px;
     height: 27px;
     width: 200px;
 }
@@ -139,7 +138,7 @@ header {
 .line2 {
     position: relative;
     top: -75px;
-    margin-left: 37px;
+    margin-left: 53px;
     width: 149px;
 
 }
@@ -147,8 +146,8 @@ header {
 /*Promo*/
 .promo-label {
     position: relative;
-    top: -190px;
-    margin-left: 37px;
+    top: -200px;
+    margin-left: 53px;
     font-family: "Sora-SemiBold";
     font-size: 14px;
     color: var(--color-12);
@@ -172,8 +171,8 @@ header {
 /*Buy one get...*/
 .promo-text {
     position: relative;
-    top: -183px;
-    margin-left: 37px;
+    top: -188px;
+    margin-left: 54px;
     font-family: "Sora-SemiBold";
     font-size: 32px;
     color: var(--color-1);
@@ -182,8 +181,8 @@ header {
 /*one FREE...*/
 .promo-text2 {
     position: relative;
-    top: -183px;
-    margin-left: 37px;
+    top: -184px;
+    margin-left: 54px;
     font-family: "Sora-SemiBold";
     font-size: 32px;
     color: var(--color-1);
@@ -193,27 +192,26 @@ header {
     align-items: center;
     overflow: hidden;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 120px;
+    font-family: "Sora-Regular";
+    margin-left: 35px;
 }
 
 .carousel {
+    position:relative;
     display: flex;
     gap: 10px;
     overflow-x: auto;
-    scrollbar-width: none;
-    /* Oculta la barra de desplazamiento */
-    -ms-overflow-style: none;
     white-space: nowrap;
-    width: 100%;
+    max-width: 85vw;
+    margin-left: 20px;
 }
 
-
 .category {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #EDEDED;
+    color: #313131;
     padding: 10px 15px;
-    border-radius: 20px;
-    cursor: pointer;
+    border-radius: 12px;
     font-size: 14px;
     transition: 0.3s;
 }
@@ -223,3 +221,68 @@ header {
     color: white;
 }
 
+.Mocha {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 156px;
+    height: 238px;
+    border-radius: 20px;
+    background-color: #7c2121;
+    justify-items: center;
+   
+}
+
+.Mocha1 img {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 140px;
+    height: 128px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    justify-items: center;
+
+}
+
+.Mocha1 {
+    display: flex;
+    justify-items: center;
+
+}
+
+.Mocha-title {
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: #242424;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Mocha-Type {
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: #A2A2A2;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Price {
+    position: relative;
+    font-family: "Sora-SemiBold";
+    font-size: 18px;
+    color: #050505;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+
+.rating {
+    position: relative;
+    font-family: "Sora-SemiBold";
+    font-size: 8px;
+    color: #FFFFFF;
+    margin-left: 110px;
+    margin-top: -200px;
+}
