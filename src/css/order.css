@@ -1,0 +1,43 @@
+@import url("variables.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    margin: 0;
+    padding: 16px;
+    background-color: var(--color-9);
+    height: 100px;
+
+    
+}
+
+header {
+    /* background-color: red; */
+    width: 200px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    margin-bottom: 20px;
+    font-family: "sora-semibold";
+    font-size: 16px;
+}
+
+header img {
+    width: 16px;
+    height: 16px;
+    
+}
+
+header h1 {
+    font-size: 16px;
+    margin:  0;
+}
+
+
