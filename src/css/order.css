@@ -284,3 +284,83 @@ hr{
     padding-left: 20px;
     gap: 10px; /* Espacio entre icono y texto */
 }
+
+/* Ajustar el icono */
+.method-details-1 img {
+    width: 24px; /* Ajusta el tamaño del icono */
+    height: 24px;
+}
+
+/* Texto del método de pago */
+.method-details-2 {
+    /* background-color: royalblue; */
+    font-family: "Sora-Regular";
+    display: flex;
+    flex-direction: column; /* forzar que el precio este abajo*/
+    padding-left: 20px;
+    
+}
+
+.method-details-2 span {
+    font-weight: bold;
+}
+
+b {
+    display: block;
+}
+/* Estilo del precio */
+.method-details-2 b {
+    color: var(--color-1); 
+    font-weight: normal;
+    
+}
+
+/* Flecha a la derecha */
+.method-details-3 {
+    /* background-color: green; */
+    margin-left: 10px;
+    padding-left: 150px;
+}
+
+
+.CAJA{
+    background-color: var(--color-7);
+    display: flex;
+    justify-self: center;
+    border-radius: 20px;
+
+    width: 425px;
+    height: 300px;
+}
+
+.payment-method{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.order-button {
+    
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    width: 327px;
+    height: 56px;
+    transform: translateX(-50%);
+    background-color: var(--color-1);
+    color: var(--color-7);
+    font-family: "sora-semibold";
+    padding: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 73px;
+}
