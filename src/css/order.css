@@ -146,7 +146,7 @@ nav {
     width: 15px;
     height: 15px;
 }
-
+/* esta es la linea horizontal */
 hr{
     border: 1px solid var(--color-6);
     width: 100%;
@@ -157,11 +157,11 @@ hr{
     
     align-items: center;
     border: none;
-    border-top: 1px solid #e0e0e0; 
+    border-top: 1px solid #e0e0e0; /* Color gris claro */
     height: 1px;
     width: 80%; /* Ajusta el ancho */
-    margin: 10px 0; /* Espaciado arriba y abajo */    
-
+    margin: 10px 0; /* Espaciado arriba y abajo */
+    
 }
 
 /* esto es el contenedor del item */
@@ -362,7 +362,7 @@ b {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    margin-bottom: 73px;
+    margin-bottom: 24px;
 }
 
 
