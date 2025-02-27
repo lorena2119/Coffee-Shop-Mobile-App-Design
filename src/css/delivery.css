@@ -117,13 +117,17 @@ body{
     width: 100%;
     transform: translateX(-50%);
     max-width: 500px;
-    bottom:45px;
+    bottom:27px;
     /* bottom: 100%; */
 }
 
 ._gray_line_divider {
     background-color:rgb(32, 130, 228); 
-    margin: 5px;
+    margin: auto;
+    border-radius: 16px;
+    height: 5px;
+    width: 45px;
+    background-color: gray;
 }
 
 ._time_left {
