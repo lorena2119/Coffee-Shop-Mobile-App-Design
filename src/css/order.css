@@ -41,3 +41,42 @@ header h1 {
 }
 
 
+nav {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+
+}
+.delivery-options{
+    background-color: var(--color-6);
+    width: 327px;
+    height: 43px;
+    display: flex;
+    padding: 4px;
+    align-items: center; /* Centrar  verticalmente el titulo de Delivery y pick up */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.delivery-options a{
+    width: 153px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    
+    
+}
+
+.deliver{
+    font-family: "sora-semibold";
+    background-color: var(--color-1);
+    color: var(--color-7);
+}
+
+.pick-up{
+    font-family: "Sora-Regular";
+    color: var(--color-8);
+}
+
