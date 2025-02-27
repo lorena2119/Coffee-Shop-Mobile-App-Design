@@ -103,23 +103,20 @@ body{
     overflow: hidden;
 }
 
-._info{
-    background-color:#ffff; 
+._info {
+    background-color: #fff; 
     padding: 10px;
     text-align: center;
     border-radius: 24px 24px 0px 0px; 
     z-index: 2;
-    position: relative;
-    margin-top: 490px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+    width: 100vw; 
+    bottom: 0; 
     box-sizing: border-box;
-    left: 50%;
-    right: 50%;
-    width: 100%;
-    transform: translateX(-50%);
-    max-width: 500px;
-    bottom:27px;
-    /* bottom: 100%; */
 }
+
 
 ._gray_line_divider {
     background-color:rgb(32, 130, 228); 
@@ -245,14 +242,81 @@ body{
     }   
 
 
-._info > section:last-child {
-    background-color: #fff3cd; 
-}
+
+
+
+
+
+
 
 ._deliver_personal_data{
-    background:rgb(0, 0, 0);
-    padding: 10px;
+    /* background:rgba(100, 110, 60, 0.16); */
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 327px;
+    height: 56px;
+    margin: 14px auto;
+
+
+    /* border: 1px solid var(--color-4);
+    border-radius: 12px; */
+/* Recordatorio de quitar esto porque este pedazo no tiene bordes jijijijaaaa */
+
+}
+
+._deliver_personal_data ._deliver_personal_data_picture{
+    position: absolute;
+    /* background-color: green; */
+    margin: 10.5px 259px 10.5px 10.5px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-4);
+}
+
+._deliver_personal_data ._deliver_personal_data_picture img{
+    width: 56px;
+    height: 56px;
+}
+
+._deliver_personal_data ._deliver_personal_data_text p:first-child{
+    font-family:Sora-SemiBold;
+    margin: 18.5px 120px 4px 72px;
+    font-size: 14px;
+    display: flex;
+    /* background-color: #f23; */
+    width: 135px;
+    height: 21px;
+    color: var(--color-3);
 }
 
 
+._deliver_personal_data ._deliver_personal_data_text p:last-child{
+    font-family:Sora-Regular;
+    /* background-color: #a32; */
+    margin:4px 153px 8.5px 72px;
+    font-size: 12px;
+    color: var(--color-4)
+    }   
+
+
+._deliver_personal_data ._deliver_personal_data_call{
+    position: absolute;
+    /* background-color: green; */
+    margin: 6px 0px 6px 283px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-4);
+
+}
+
+._deliver_personal_data ._deliver_personal_data_call img{
+    width: 24px;
+    height: 24px;
+    /* background-color: red; */
+}
