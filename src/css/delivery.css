@@ -4,7 +4,7 @@
     position:relative;
     /* color: var(--color-5); */ 
     overflow: hidden;
-    background: #f5f5f5; 
+    background:rgb(37, 0, 71); 
 }
 
 ._nav_header {
@@ -15,6 +15,7 @@
     padding: 0 24px;
     justify-content: space-between;
     top: 0;
+    z-index: 3;
 }
 
 ._nav_header a {
@@ -72,8 +73,20 @@ Ver como se hace para importarse el mapa
 */
 
 ._main ._map{
-    background-color:rgb(89, 228, 165); 
+    /* background-color:rgb(89, 228, 165);  */
     /* margin: 5px; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+._main ._map iframe{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -86,10 +99,26 @@ Esta es la caja que contiene de manera general todo el contenido de informacion 
 5 seccion) es una caja mas general la cual contiene 3 datos, una imagen, un titulo y un parrafo, ubicados 1:2, donde la imagen ocupa una pequeña parte de la seccion a la izquierda y el titulo y el parrafo ocupan la parte derecha
 6 seccion) es una caja que contiene 4 elementos, la imagen del delivery, el nombre del delivery, su cargo y un boton para llamar, 1:2:1 la manera en la que estan distribuidos
 */
+body{
+    overflow: hidden;
+}
+
 ._info{
-    background-color:rgb(252, 12, 12); 
+    background-color:#ffff; 
     padding: 10px;
     text-align: center;
+    border-radius: 24px 24px 0px 0px; 
+    z-index: 2;
+    position: relative;
+    margin-top: 490px;
+    box-sizing: border-box;
+    left: 50%;
+    right: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    max-width: 500px;
+    bottom:45px;
+    /* bottom: 100%; */
 }
 
 ._gray_line_divider {
@@ -127,6 +156,8 @@ Esta es la caja que contiene de manera general todo el contenido de informacion 
 
 ._deliver_personal_data{
     background:rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
 }
 
 
