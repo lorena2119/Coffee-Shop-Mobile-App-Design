@@ -178,3 +178,21 @@ hr{
     height: 54px;
     border-radius: 12px;
 }
+/* esto es los detalles del item */
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h2 {
+    font-family: "sora-semibold";
+    font-size: 16px;
+    margin: 0 0 4px 0;
+}
+
+.item-details p {
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+    margin: 0;
+}
+/* aqui se termina los detalles del item */
