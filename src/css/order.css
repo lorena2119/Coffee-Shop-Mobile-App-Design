@@ -238,3 +238,49 @@ hr{
     margin: 0;
     flex-grow: 1;
 }
+
+.payment-summary {
+    background-color: var(--color-9);
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.payment-summary h1 {
+    font-family: "sora-semibold";
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.price-item, .delivery-fee {
+    font-family: "Sora-Regular";
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.price-item p, .delivery-fee p {
+    font-family: "Sora-Regular";
+    color: var(--color-10);
+    margin: 0;
+}
+
+.original-fee {
+    text-decoration: line-through;
+    color: var(--color-10);
+    margin-right: 8px;
+}
+
+.discounted-fee {
+    color: var(--color-8);
+}
+
+.method-details {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 10px; /* Espacio entre icono y texto */
+}
