@@ -13,7 +13,6 @@ body {
 header {
     background: linear-gradient(300deg, var(--color-10), 60%, var(--color-11));
     position: relative;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 375px;
@@ -72,7 +71,7 @@ header {
     font-size: 16px;
     width: 300px;
     height: 52px;
-    background: linear-gradient(to bottom left, #313131, #111111);
+    background: linear-gradient(to bottom left, #111111, #313131);
     margin-left: -20px;
     border: none;
     padding-left: 20px;
@@ -112,7 +111,7 @@ header {
 .promo-container {
     position: absolute;
     top: 125px;
-    margin-left: -5px;
+    margin-left: 15px;
     width: 95%;
 
 }
@@ -123,9 +122,9 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    width: 355px;
-    height: 160px;
-    margin-left: 13px;
+    width: 400px;
+    height: 180px;
+    margin-left: -10px;
     margin-top: 160px;
 }
 
@@ -133,33 +132,33 @@ header {
 .line1 {
     position: relative;
     top: -100px;
-    margin-left: 55px;
-    height: 27px;
-    width: 200px;
+    margin-left: 20px;
+    height: 37px;
+    width: 245px;
 }
 
 /*Línea debajo del one FREE*/
 .line2 {
     position: relative;
     top: -60px;
-    margin-left: -204px;
-    width: 155px;
+    margin-left: -249px;
+    width: 180px;
+    height: 30px;
 
 }
 
 /*Promo*/
 .promo-label {
     position: relative;
-    top: -180px;
-    margin-left: 53px;
+    top: -200px;
+    margin-left: 20px;
     font-family: "Sora-SemiBold";
     font-size: 14px;
     color: var(--color-12);
     background-color: #ED5151;
-    width: 60px;
+    width: 70px;
     height: 26px;
     border-radius: 8px;
-    margin-right: 320px;
     text-align: center;
     font-weight: 10px;
     align-items: center;
@@ -175,20 +174,20 @@ header {
 /*Buy one get...*/
 .promo-text {
     position: relative;
-    top: -174px;
-    margin-left: 54px;
+    top: -185px;
+    margin-left: 20px;
     font-family: "Sora-SemiBold";
-    font-size: 32px;
+    font-size: 40px;
     color: var(--color-1);
 }
 
 /*one FREE...*/
 .promo-text2 {
     position: relative;
-    top: -170px;
-    margin-left: 54px;
+    top: -185px;
+    margin-left: 22px;
     font-family: "Sora-SemiBold";
-    font-size: 32px;
+    font-size: 35px;
     color: var(--color-1);
 }
 
@@ -376,3 +375,103 @@ header {
     margin-top: -200px;
     z-index: 3;
 }
+
+.coffee3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 156px;
+    height: 238px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    justify-items: center;
+   
+}
+
+.coffee3_1 img {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 140px;
+    height: 128px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    justify-items: center;
+
+}
+.coffee3_1 {
+    display: flex;
+    justify-items: center;
+
+}
+.Transparente3 {
+    position: relative;
+    width: 156px;
+    height: 238px;
+    margin-left: 96px;
+    margin-top: -15px;
+    border-radius: 20px;
+    
+}
+
+.rating3 {
+    position: relative;
+    font-family: "Sora-SemiBold";
+    font-size: 8px;
+    color: #FFFFFF;
+    margin-left: 115px;
+    margin-top: -125px;
+    z-index: 3;
+}
+
+
+.Coffee4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+    margin-top: -238px;
+    width: 156px;
+    height: 238px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    justify-items: center;
+   
+}
+
+.coffee4_1 img {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 140px;
+    height: 128px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    justify-items: center;
+
+}
+.coffee4_1 {
+    display: flex;
+    justify-items: center;
+
+}
+.Transparente4 {
+    position: relative;
+    width: 156px;
+    height: 238px;
+    margin-left: 96px;
+    margin-top: -15px;
+    border-radius: 20px;
+    
+}
+
+.rating4 {
+    position: relative;
+    font-family: "Sora-SemiBold";
+    font-size: 8px;
+    color: #FFFFFF;
+    margin-left: 115px;
+    margin-top: -125px;
+    z-index: 3;
+}
+
