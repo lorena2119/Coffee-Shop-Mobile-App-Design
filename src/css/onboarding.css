@@ -4,3 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+header img{
+    height: 536px;
+    width: 375px;
+    object-fit: cover;
+
+}
