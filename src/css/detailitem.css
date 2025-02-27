@@ -110,15 +110,13 @@ main .description details{
     font-size: 14px;
     line-height: 150%;
     display: flex;
-
-
+    display: flex;
+    flex-direction: column;
 }
 
 main .description details p{
     font-family: "sora-light";
     font-weight: normal;
-    text-overflow: ellipsis;
-
 }
 
 details>summary {
@@ -172,4 +170,43 @@ details[open] summary:after {
     background-color: var(--color-5);
     border: 1px solid var(--color-1);
     color: var(--color-1);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 24px 46px;
+    background-color: var(--color-10);
+    border-radius: 16px 16px 0px 0px;
+    gap: 34px;
+    position: sticky;
+    bottom: 0;
+}
+
+footer .price{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+footer .price p:first-child{
+    font-family: "sora-regular";
+    color: var(--color-11);
+    font-size: 14px;
+    line-height: 120%;
+}
+footer .price p:last-child{
+    font-family: "sora-semibold";
+    color: var(--color-1);
+    line-height: 150%;
+}
+
+footer a{
+    padding: 16px 72px;
+    background-color: var(--color-1);
+    border-radius: 16px;
+    color: var(--color-10);
+    text-decoration: none;
+    font-family: "sora-semibold";
+    font-size: 16px;
 }
