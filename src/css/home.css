@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #EDEDED;
+}
+
 header {
     background: linear-gradient(300deg, var(--color-10), 60%, var(--color-11));
     position: relative;
@@ -224,12 +228,12 @@ header {
 .Mocha {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 70px;
     margin-top: 30px;
     width: 156px;
     height: 238px;
     border-radius: 20px;
-    background-color: #7c2121;
+    background-color: #FFFFFF;
     justify-items: center;
    
 }
@@ -277,6 +281,15 @@ header {
     margin-top: 15px;
 
 }
+.Transparente {
+    position: relative;
+    width: 156px;
+    height: 238px;
+    margin-left: 97px;
+    margin-top: -21px;
+    border-radius: 20px;
+    
+}
 
 .rating {
     position: relative;
@@ -285,4 +298,76 @@ header {
     color: #FFFFFF;
     margin-left: 110px;
     margin-top: -200px;
+    z-index: 3;
+}
+
+
+.Flat {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: -240px;
+    width: 156px;
+    height: 238px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    justify-items: center;
+   
+}
+
+.Flat1 img {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 140px;
+    height: 128px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    justify-items: center;
+
+}
+
+.Flat-title {
+    font-family: "Sora-SemiBold";
+    font-size: 16px;
+    color: #242424;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Flat-Type {
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: #A2A2A2;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Price2 {
+    position: relative;
+    font-family: "Sora-SemiBold";
+    font-size: 18px;
+    color: #050505;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+.Transparente2 {
+    position: relative;
+    width: 156px;
+    height: 238px;
+    margin-left: 97px;
+    margin-top: -21px;
+    border-radius: 20px;
+    
+}
+
+.rating2 {
+    position: relative;
+    font-family: "Sora-SemiBold";
+    font-size: 8px;
+    color: #FFFFFF;
+    margin-left: 110px;
+    margin-top: -200px;
+    z-index: 3;
 }
