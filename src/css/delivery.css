@@ -131,38 +131,46 @@ body{
 }
 
 ._time_left {
-    background-color:rgb(41, 194, 92); 
+    /* background-color:rgb(41, 194, 92);  */
     /* font-weight: bold; */
     font-family: Sora-Regular;
-    font-sizing: 16px;
+    font-size: 16px;
 }
 
 ._deliver_name {
-    background-color:rgb(24, 93, 163); 
+    /* background-color:rgb(24, 93, 163);  */
     display: flex;
     justify-content: center;
     font-family: Sora-Regular;
     margin-bottom: 0px;
+    gap: 3px;
+    margin-top: -27px;
+    position: relative;
+    font-size: 12px;
 }
 ._deliver_name p:first-child  {
     color:var(--color-4);
 }
 ._deliver_name p:last-child  {
     color:var(--color-3);
+    font-family: Sora-SemiBold;
 }
 
 ._green_lines_divider {
-    background-color: #cff4fc; 
+    /* background-color:rgb(221, 18, 18);  */
     color:rgb(3, 32, 5);
     display: flex;
-    margin-top:9px;
+    margin:9px auto;
+    width: 315px;
+    height: 4px;
+    gap: 10px;
 }
 
 ._green_lines_divider ._green_line{
     background-color:rgb(32, 130, 228); 
     margin: auto;
-    margin-right: 10px;
-    border-radius: 16px;
+    /* margin-right: 10px; */
+    border-radius: 20px;
     height: 4px;
     width: 71.25px;
     background-color: var(--color-6);
@@ -171,35 +179,71 @@ body{
 ._green_lines_divider ._green_line:last-child{
     background-color:rgb(32, 130, 228); 
     margin: auto;
-    margin-right: 10px;
-    border-radius: 16px;
+    /* margin-right: 0px; */
+    border-radius: 20px;
     height: 4px;
     width: 71.25px;
     background-color: gray;
 }
 
 
+
+
+
+
 ._deliver_info_status {
-    background-color: #d1e7dd; 
+    /* background-color: #d1e7dd;  */
     display: flex;
-    margin-top: 16px;
+    margin: 16px auto;
+    border-radius: 12px;
+    width: 327px;
+    height: 77px;
+    border: 1px solid var(--color-4);
 }
 
 ._deliver_info_status ._deliver_info_status_bike{
     position: absolute;
-    background-color: green;
+    /* background-color: green; */
     margin: 10.5px 259px 10.5px 10.5px;
-    padding: 56px;
-    width: 0px;
-    height: 0px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-4);
+}
+
+._deliver_info_status ._deliver_info_status_bike img{
+    width: 56px;
+    height: 56px;
 }
 
 ._deliver_info_status ._deliver_info_status_text {
-    background-color:rgb(25, 160, 99); 
+    /* background-color:rgb(25, 160, 99);  */
     text-align: left;
     margin: 8px 0px 8px 84px;
-
+    position: relative;
+    width: 243px;
+    height: 61px;
+    gap: 4px;
 }
+
+._deliver_info_status ._deliver_info_status_text p:first-child{
+    font-family:Sora-SemiBold;
+    margin: 0px 95px 4px 0px;
+    font-size: 14px;
+    display: flex;
+    /* background-color: #f23; */
+    width: 148px;
+    height: 21px;
+}   
+
+._deliver_info_status ._deliver_info_status_text p:last-child{
+    font-family:Sora-Regular;
+    /* background-color: #a32; */
+    margin:4px 0px 8px 0px;
+    font-size: 12px;
+    color: var(--color-4)
+    }   
+
 
 ._info > section:last-child {
     background-color: #fff3cd; 
