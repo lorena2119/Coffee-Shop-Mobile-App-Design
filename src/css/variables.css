@@ -4,19 +4,46 @@
     --color-3: #313131;
     --color-4: #E3E3E3;
     --color-5: #F9F2ED;
-    --color-6: #36C07E;
+    --color-6: #FFFFFF;
+    --color-7: linear-gradient(transparent, rgba(5,5,5,1) 24%);
+    --color-8: #050505;
+    --color-9: rgba(255, 255, 255, 0);
+    --color-10: rgb(0, 0, 0);
+    --color-11: #a2a2a2;
+    --color-6DT: #242424;
+    --color-7DT: #A2A2A2;
+    --color-8DT: rgba(237, 237, 237, 0.35);
+    --color-9DT: #F9F9F9;
+    --color-10DT: #FFFFFF;
+    --color-11DT: #909090;
+    --color-12DT: #EDEDED;
+    --color-13DT: linear-gradient(0deg, rgba(237,237,237,0.35) 0%, rgba(255,255,255,1) 100%);
+    
+    --color-6O: #EDEDED;
+    --color-7O: #ffffff;
+    --color-8O: #242424;
+    --color-9O: #F9F9F9;
+    --color-10O: #A2A2A2;
+    
+    --color-6LD: #36C07E;
 }
+
 @font-face {
-    font-family: "example";
+    font-family: "example"; 
     src: url(../storage/fonts/example.ttf);
 }
 
 @font-face {
-    font-family: "Sora-Regular";
-    src: url(../storage/fonts/Sora/static/Sora-Regular.ttf)
+    font-family: "Sora-SemiBold";
+    src: url(../storage/fonts/Sora/static/Sora-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: "Sora-SemiBold";
-    src: url(../storage/fonts/Sora/static/Sora-SemiBold.ttf)
+    font-family: "Sora-Regular";
+    src: url(../storage/fonts/Sora/static/Sora-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Sora-Light";
+    src: url(../storage/fonts/Sora/static/Sora-Light.ttf);
 }
