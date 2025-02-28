@@ -1,0 +1,380 @@
+@import url("variables.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    margin: 0;
+    padding: 16px;
+    background-color: var(--color-9);
+    height: 100px;
+
+    
+}
+
+header {
+    /* background-color: red; */
+    width: 200px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    margin-bottom: 20px;
+    font-family: "sora-semibold";
+    font-size: 16px;
+}
+
+header img {
+    width: 16px;
+    height: 16px;
+    
+}
+
+header h1 {
+    font-size: 16px;
+    margin:  0;
+}
+
+
+nav {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+
+}
+.delivery-options{
+    background-color: var(--color-6);
+    width: 327px;
+    height: 43px;
+    display: flex;
+    padding: 4px;
+    align-items: center; /* Centrar  verticalmente el titulo de Delivery y pick up */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.delivery-options a{
+    width: 153px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    
+    
+}
+
+.deliver{
+    font-family: "sora-semibold";
+    background-color: var(--color-1);
+    color: var(--color-7);
+}
+
+.pick-up{
+    font-family: "Sora-Regular";
+    color: var(--color-8);
+}
+
+/* esto es la separacion de los botones */
+
+.delivery-address {
+    /* background-color: red; */
+    width: 315px;
+    height: 121px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.delivery-address h1 {
+    font-size: 16px;
+    margin: 0 0 13px 0;
+    font-family: "sora-semibold";
+    color: var(--color-8);
+}
+
+.delivery-address h3 {
+    font-size: 14px;
+    margin: 0 0 4px 0;
+    font-family: "sora-semibold";
+    color: var(--color-8);
+}
+
+.delivery-address p {
+    font-size: 12px;
+    font-family: "sora-Regular";
+    color: var(--color-10);
+    margin: 0 0 16px 0;
+}
+
+.edit-add-container {
+    /* background-color: blue; */
+    display: flex;
+    gap: 8px;
+    white-space: nowrap
+}
+
+.edit-add-container a {
+    width: 110px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    
+}   
+.edit-add-container a {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    gap:2px;
+    text-decoration: none;
+    color: var(--color-3);
+    font-size: 12px;
+    background-color: var(--color-6);
+    padding: 6px 12px;
+    border-radius: 16px;
+    border: 20px;
+    font-family: "Sora-Regular";
+    
+    
+}
+
+.edit-add-container img {
+    width: 15px;
+    height: 15px;
+}
+/* esta es la linea horizontal */
+hr{
+    border: 1px solid var(--color-6);
+    width: 100%;
+    margin-bottom: 20px;
+}
+.linea {
+    display: flex;
+    
+    align-items: center;
+    border: none;
+    border-top: 1px solid #e0e0e0; /* Color gris claro */
+    height: 1px;
+    width: 80%; /* Ajusta el ancho */
+    margin: 10px 0; /* Espaciado arriba y abajo */
+    
+}
+
+/* esto es el contenedor del item */
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+/* esta es la unica iagen que tiene el coffee */
+.img-coffe {
+    width: 54px;
+    height: 54px;
+    border-radius: 12px;
+}
+/* esto es los detalles del item */
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h2 {
+    font-family: "sora-semibold";
+    font-size: 16px;
+    margin: 0 0 4px 0;
+}
+
+.item-details p {
+    font-family: "Sora-Regular";
+    font-size: 12px;
+    color: var(--color-10);
+    margin: 0;
+}
+/* aqui se termina los detalles del item */
+
+
+.portion-selector {
+    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.portion-selector button {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.portion-selector input {
+    width: 24px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.discount-section {
+    margin-bottom: 20px;
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.discount-container h2 {
+    font-family: "sora-semibold";
+    font-size: 14px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.payment-summary {
+    background-color: var(--color-9);
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.payment-summary h1 {
+    font-family: "sora-semibold";
+    font-size: 16px;
+    margin: 0 0 16px 0;
+}
+
+.price-item, .delivery-fee {
+    font-family: "Sora-Regular";
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.price-item p, .delivery-fee p {
+    font-family: "Sora-Regular";
+    color: var(--color-10);
+    margin: 0;
+}
+
+.original-fee {
+    text-decoration: line-through;
+    color: var(--color-10);
+    margin-right: 8px;
+}
+
+.discounted-fee {
+    color: var(--color-8);
+}
+
+.method-details {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 10px; /* Espacio entre icono y texto */
+}
+
+/* Ajustar el icono */
+.method-details-1 img {
+    width: 24px; /* Ajusta el tamaño del icono */
+    height: 24px;
+}
+
+/* Texto del método de pago */
+.method-details-2 {
+    /* background-color: royalblue; */
+    font-family: "Sora-Regular";
+    display: flex;
+    flex-direction: column; /* forzar que el precio este abajo*/
+    padding-left: 20px;
+    
+}
+
+.method-details-2 span {
+    font-weight: bold;
+}
+
+b {
+    display: block;
+}
+/* Estilo del precio */
+.method-details-2 b {
+    color: var(--color-1); 
+    font-weight: normal;
+    
+}
+
+/* Flecha a la derecha */
+.method-details-3 {
+    /* background-color: green; */
+    margin-left: 10px;
+    padding-left: 150px;
+}
+
+
+.CAJA{
+    background-color: var(--color-7);
+    display: flex;
+    justify-self: center;
+    border-radius: 20px;
+
+    width: 425px;
+    height: 300px;
+}
+
+.payment-method{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.order-button {
+    
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    width: 327px;
+    height: 56px;
+    transform: translateX(-50%);
+    background-color: var(--color-1);
+    color: var(--color-7);
+    font-family: "sora-semibold";
+    padding: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+
+
+
+/* Quitar flechas del input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.portion-count{
+    background-color: var(--color-9);
+}
