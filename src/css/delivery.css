@@ -1,0 +1,322 @@
+@import url(variables.css);
+
+._main{
+    position:relative;
+    /* color: var(--color-5); */ 
+    overflow: hidden;
+    background:rgb(37, 0, 71); 
+}
+
+._nav_header {
+    position: absolute;
+    display: flex;
+    width: calc(100% - 48px);
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+    top: 0;
+    z-index: 3;
+}
+
+._nav_header a {
+    margin-top: 68px;
+    background-color: var(--color-4);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._nav_header > a:first-child {
+    width: 44px;
+    height: 44px;
+    margin-left: 24px;
+}
+
+._nav_header > a:last-child {
+    width: 44px;
+    height: 44px;
+    margin-right: 24px;
+}
+
+._nav_header a img {
+    object-fit: contain;
+}
+
+
+/* 
+Esta es la seccion del delivery info
+-Ver como sobreponer esta seccion sobre la seccion del mapa
+-Esta es la caja para almacenar los dos botones, estas medidas no aplican para los botones, son independientes
+-Medidas:
+Top: 68px
+L-R: 24px
+378px a la seccion de abajo de informacion
+
+Las dimenciones generales de esta caja son:
+
+
+Mas o menos el mapa tiene que tener un tamaño de 446px
+*/
+._main ._header{
+    /* margin-bottom: -34px; */
+    background-color:rgb(231, 90, 90);
+    /* margin: 10px; */
+}
+
+
+/*
+Esta es la caja que va a contener el mapa en general, va a ser una sola para todo el mapa
+La dimension del mapa debe de ser de 446px
+De momento, se supone que no es esa, la dimension total del mapa debe de ser el fondo total de la pantalla, donde tanto la seccion superior del header como la de info deben sobreponerse ante la posicion del mapa siendo este un background
+Ver como se hace para importarse el mapa
+*/
+
+._main ._map{
+    /* background-color:rgb(89, 228, 165);  */
+    /* margin: 5px; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+._main ._map iframe{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 
+Esta es la caja que contiene de manera general todo el contenido de informacion de abajo, se deben de subseccionar cada parte, siendo un total de 6 subsecciones
+1 seccion) pertenece a la linea que aparece entre el borde de la caja y la seccion 2
+2 seccion) es un parrafo de texto que contiene el tiempo restante para que llegue el pedido
+3 seccion) Es un parrafo que contiene el nombre del delivery
+4 seccion) es una serie de lineas las cuales dividen las dos primeras secciones de las otras 2
+5 seccion) es una caja mas general la cual contiene 3 datos, una imagen, un titulo y un parrafo, ubicados 1:2, donde la imagen ocupa una pequeña parte de la seccion a la izquierda y el titulo y el parrafo ocupan la parte derecha
+6 seccion) es una caja que contiene 4 elementos, la imagen del delivery, el nombre del delivery, su cargo y un boton para llamar, 1:2:1 la manera en la que estan distribuidos
+*/
+body{
+    overflow: hidden;
+}
+
+._info {
+    background-color: #fff; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 24px 24px 0px 0px; 
+    z-index: 2;
+    position: absolute; 
+    left: 0;
+    right: 0;
+    width: 100vw; 
+    bottom: 0; 
+    box-sizing: border-box;
+}
+
+
+._gray_line_divider {
+    background-color:rgb(32, 130, 228); 
+    margin: auto;
+    border-radius: 16px;
+    height: 5px;
+    width: 45px;
+    background-color: gray;
+}
+
+._time_left {
+    /* background-color:rgb(41, 194, 92);  */
+    /* font-weight: bold; */
+    font-family: Sora-Regular;
+    font-size: 16px;
+}
+
+._deliver_name {
+    /* background-color:rgb(24, 93, 163);  */
+    display: flex;
+    justify-content: center;
+    font-family: Sora-Regular;
+    margin-bottom: 0px;
+    gap: 3px;
+    margin-top: -27px;
+    position: relative;
+    font-size: 12px;
+}
+._deliver_name p:first-child  {
+    color:var(--color-4);
+}
+._deliver_name p:last-child  {
+    color:var(--color-3);
+    font-family: Sora-SemiBold;
+}
+
+._green_lines_divider {
+    /* background-color:rgb(221, 18, 18);  */
+    color:rgb(3, 32, 5);
+    display: flex;
+    margin:9px auto;
+    width: 315px;
+    height: 4px;
+    gap: 10px;
+}
+
+._green_lines_divider ._green_line{
+    background-color:rgb(32, 130, 228); 
+    margin: auto;
+    /* margin-right: 10px; */
+    border-radius: 20px;
+    height: 4px;
+    width: 71.25px;
+    background-color: var(--color-6);
+}
+
+._green_lines_divider ._green_line:last-child{
+    background-color:rgb(32, 130, 228); 
+    margin: auto;
+    /* margin-right: 0px; */
+    border-radius: 20px;
+    height: 4px;
+    width: 71.25px;
+    background-color: gray;
+}
+
+
+
+
+
+
+._deliver_info_status {
+    /* background-color: #d1e7dd;  */
+    display: flex;
+    margin: 16px auto;
+    border-radius: 12px;
+    width: 327px;
+    height: 77px;
+    border: 1px solid var(--color-4);
+}
+
+._deliver_info_status ._deliver_info_status_bike{
+    position: absolute;
+    /* background-color: green; */
+    margin: 10.5px 259px 10.5px 10.5px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-4);
+}
+
+._deliver_info_status ._deliver_info_status_bike img{
+    width: 56px;
+    height: 56px;
+}
+
+._deliver_info_status ._deliver_info_status_text {
+    /* background-color:rgb(25, 160, 99);  */
+    text-align: left;
+    margin: 8px 0px 8px 84px;
+    position: relative;
+    width: 243px;
+    height: 61px;
+    gap: 4px;
+}
+
+._deliver_info_status ._deliver_info_status_text p:first-child{
+    font-family:Sora-SemiBold;
+    margin: 0px 95px 4px 0px;
+    font-size: 14px;
+    display: flex;
+    /* background-color: #f23; */
+    width: 148px;
+    height: 21px;
+}   
+
+._deliver_info_status ._deliver_info_status_text p:last-child{
+    font-family:Sora-Regular;
+    /* background-color: #a32; */
+    margin:4px 0px 8px 0px;
+    font-size: 12px;
+    color: var(--color-4)
+    }   
+
+
+
+
+
+
+
+
+
+._deliver_personal_data{
+    /* background:rgba(100, 110, 60, 0.16); */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 327px;
+    height: 56px;
+    margin: 14px auto;
+
+
+    /* border: 1px solid var(--color-4);
+    border-radius: 12px; */
+/* Recordatorio de quitar esto porque este pedazo no tiene bordes jijijijaaaa */
+
+}
+
+._deliver_personal_data ._deliver_personal_data_picture{
+    position: absolute;
+    /* background-color: green; */
+    margin: 10.5px 259px 10.5px 10.5px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-4);
+}
+
+._deliver_personal_data ._deliver_personal_data_picture img{
+    width: 56px;
+    height: 56px;
+}
+
+._deliver_personal_data ._deliver_personal_data_text p:first-child{
+    font-family:Sora-SemiBold;
+    margin: 18.5px 120px 4px 72px;
+    font-size: 14px;
+    display: flex;
+    /* background-color: #f23; */
+    width: 135px;
+    height: 21px;
+    color: var(--color-3);
+}
+
+
+._deliver_personal_data ._deliver_personal_data_text p:last-child{
+    font-family:Sora-Regular;
+    /* background-color: #a32; */
+    margin:4px 153px 8.5px 72px;
+    font-size: 12px;
+    color: var(--color-4)
+    }   
+
+
+._deliver_personal_data ._deliver_personal_data_call{
+    position: absolute;
+    /* background-color: green; */
+    margin: 6px 0px 6px 283px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-4);
+
+}
+
+._deliver_personal_data ._deliver_personal_data_call img{
+    width: 24px;
+    height: 24px;
+    /* background-color: red; */
+}
