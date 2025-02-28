@@ -1,4 +1,22 @@
-:root{
+:root {
+    --color-1H: #FFFFFF;
+    --color-2H: #FBBE21;
+    --color-4H: #A2A2A2;
+    --color-5H: #242424;
+    --color-6H: #F9F9F9;
+    --color-7H: #05050500;
+    --color-8H: #050505;
+    --color-10H: #111111;
+    --color-11H: #313131;
+    --color-12H: #D8D8D8;
+    --color-13H: #2A2A2A;
+    --color-14H: #EDEDED35;
+    --color-15H: #ED5151;
+    --color-17H: #909090;
+    --color-19H: #EDEDED;
+    --color-20H: #36C07E;
+    --color-21H: #101010;
+
     --color-1: #C67C4E;
     --color-2: #EDD6C8;
     --color-3: #313131;
