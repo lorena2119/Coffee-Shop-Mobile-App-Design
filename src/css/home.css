@@ -24,8 +24,9 @@ header {
 }
 
 .main_header {
+    position: relative;
     margin: 30px;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 50px;
 }
 
@@ -34,7 +35,7 @@ header {
     font-family: "Sora-Regular";
     font-weight: 400;
     font-size: 12px;
-    color: var(--color-2);
+    color: #A2A2A2;
 
 }
 
@@ -67,24 +68,32 @@ header {
     font-family: "Sora-Regular";
 }
 
+.lupa img {
+    position: relative;
+    top: 45px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
 .search-input {
     flex: 1;
-    opacity: 0.1;
+    opacity: 0.6;
     border-radius: 15px;
     outline: none;
     font-size: 16px;
-    width: 300px;
-    height: 52px;
-    background: linear-gradient #050505;
-    margin-left: -20px;
+    width: 327px;
+    height: 65px;
+    background: linear-gradient(300deg, var(--color-11), 50%, var(--color-11));
     border: none;
-    padding-left: 20px;
+    align-items: center;
+    padding-left: 13%;
 }
 
 /*Edita lo que está dentro del la búsqueda, es decir el Search Coffee*/
 .search-input::placeholder {
-    padding-left: 25px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
 
 }
@@ -98,10 +107,10 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-top: -57px;
-    margin-left: 313px;
-    width: 52px;
-    height: 52px;
+    margin-top: -65px;
+    margin-left: 345px;
+    width: 65px;
+    height: 65px;
 }
 
 /*La imágen del botón que esta al lado de la barra de búsqueda*/
@@ -113,8 +122,8 @@ header {
 
 .promo {
     margin-top: 24px;
-    width: 100%;
-    height: 160px;
+    width: 410px;
+    height: 170px;
     background-image: url(../storage/img/Banner-1.png);
     position: relative;
     background-size: cover;
@@ -151,19 +160,19 @@ header {
     align-items: center;
     overflow: hidden;
     width: 90%;
-    margin-top: 120px;
+    margin-top: 140px;
     font-family: "Sora-Regular";
-    margin-left: 35px;
+    margin-left: 25px;
 
 }
 
 .carousel {
     position: relative;
     display: flex;
-    gap: 10px;
+    gap: -10px;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 85vw;
+    width: 98vw;
     margin-left: 20px;
 }
 
@@ -172,7 +181,7 @@ header {
     color: #313131;
     padding: 10px 15px;
     border-radius: 12px;
-    font-size: 14px;
+    font-size: 19px;
     transition: 0.3s;
 }
 
