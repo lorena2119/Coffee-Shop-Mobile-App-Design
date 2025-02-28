@@ -19,12 +19,13 @@
     --color-12DT: #EDEDED;
     --color-13DT: linear-gradient(0deg, rgba(237,237,237,0.35) 0%, rgba(255,255,255,1) 100%);
     
-    /* Variables nuevas de la rama Order con sufijo O */
     --color-6O: #EDEDED;
     --color-7O: #ffffff;
     --color-8O: #242424;
     --color-9O: #F9F9F9;
     --color-10O: #A2A2A2;
+    
+    --color-6LD: #36C07E;
 }
 
 @font-face {
