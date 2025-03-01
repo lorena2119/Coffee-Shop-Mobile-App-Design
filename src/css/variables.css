@@ -1,23 +1,31 @@
 :root{
-    --color-1: #C67C4E;
-    --color-2: #EDD6C8;
-    --color-3: #313131;
-    --color-4: #E3E3E3;
-    --color-5: #F9F2ED;
-    --color-6: #FFFFFF;
-    --color-7: linear-gradient(transparent, rgba(5,5,5,1) 24%);
-    --color-8: #050505;
-    --color-9: rgba(255, 255, 255, 0);
-    --color-10: rgb(0, 0, 0);
-    --color-11: #a2a2a2;
-    --color-6DT: #242424;
-    --color-7DT: #A2A2A2;
-    --color-8DT: rgba(237, 237, 237, 0.35);
-    --color-9DT: #F9F9F9;
-    --color-10DT: #FFFFFF;
-    --color-11DT: #909090;
-    --color-12DT: #EDEDED;
-    --color-13DT: linear-gradient(0deg, rgba(237,237,237,0.35) 0%, rgba(255,255,255,1) 100%);
+--color-1: #FFFFFF;
+    --color-2: #FBBE21;
+    --color-3: #A2A2A2;
+    --color-4: #242424;
+    --color-5: #F9F9F9;
+    --color-6: #05050500;
+    --color-7: #050505;
+    --color-8: #111111;
+    --color-9: #313131;
+    --color-10: #D8D8D8;
+    --color-11: #2A2A2A;
+    --color-12: #EDEDED35;
+    --color-13: #ED5151;
+    --color-14: #909090;
+    --color-15: #EDEDED;
+    --color-16: #36C07E;
+    --color-17: #101010;
+    --color-18: #C67C4E;
+    --color-19: #EDD6C8;
+    --color-20: linear-gradient(transparent, rgba(5,5,5,1) 24%);
+    --color-21: rgba(255, 255, 255, 0);
+    --color-22: rgb(0, 0, 0);
+    --color-23: #a2a2a2;
+    --color-24: rgba(237, 237, 237, 0.35);
+    --color-25: linear-gradient(0deg, rgba(237,237,237,0.35) 0%, rgba(255,255,255,1) 100%);
+    --color-26: #F9F2ED;
+    --color-27: #E3E3E3;
 }
 
 @font-face {
