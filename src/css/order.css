@@ -10,8 +10,8 @@ body {
     
     margin: 0;
     padding: 16px;
-    background-color: var(--color-9);
-    height: 100px;
+    background-color: var(--color-9DT);
+    height: 500px;
 
     
 }
@@ -33,6 +33,11 @@ header img {
     width: 16px;
     height: 16px;
     
+}
+
+header a {
+    /*background-color: red;*/
+    padding: 16px
 }
 
 header h1 {
@@ -227,7 +232,7 @@ hr{
     display: flex;
     align-items: center;
     gap: 12px;
-    background-color: white;
+    background-color: var(--color-6);
     padding: 16px;
     border-radius: 16px;
 }
@@ -324,7 +329,7 @@ b {
 
 
 .CAJA{
-    background-color: var(--color-7);
+    background-color:var(--color-6);
     display: flex;
     justify-self: center;
     border-radius: 20px;
@@ -362,7 +367,7 @@ b {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    margin-bottom: 24px;
+    margin-bottom: 3px;
 }
 
 
