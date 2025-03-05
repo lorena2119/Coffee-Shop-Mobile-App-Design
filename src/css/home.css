@@ -9,7 +9,7 @@
 
 body {
     background-color: #EDEDED;
-    overflow: auto;
+    overflow: hidden;
 }
 
 header {
@@ -71,7 +71,7 @@ header {
 .lupa img {
     position: relative;
     top: 45px;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 20px;
     height: 20px;
     z-index: 2;
@@ -83,12 +83,13 @@ header {
     border-radius: 15px;
     outline: none;
     font-size: 16px;
-    width: 327px;
-    height: 65px;
+    width: 285px;
+    height: 55px;
     background: linear-gradient(300deg, var(--color-11), 50%, var(--color-11));
     border: none;
     align-items: center;
     padding-left: 13%;
+    margin-left: -10px;
 }
 
 /*Edita lo que está dentro del la búsqueda, es decir el Search Coffee*/
@@ -107,10 +108,10 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-top: -65px;
-    margin-left: 345px;
-    width: 65px;
-    height: 65px;
+    margin-top: -56px;
+    margin-left: 290px;
+    width: 55px;
+    height: 55px;
 }
 
 /*La imágen del botón que esta al lado de la barra de búsqueda*/
@@ -122,8 +123,9 @@ header {
 
 .promo {
     margin-top: 24px;
-    width: 410px;
-    height: 170px;
+    width: 350px;
+    height: 150px;
+    margin-left: -10px;
     background-image: url(../storage/img/Banner-1.png);
     position: relative;
     background-size: cover;
@@ -158,12 +160,11 @@ header {
 
 .carousel-container {
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
     width: 90%;
-    margin-top: 140px;
+    margin-top: 120px;
     font-family: "Sora-Regular";
-    margin-left: 25px;
-
+    margin-left: 15px;
 }
 
 .carousel {
@@ -181,7 +182,7 @@ header {
     color: #313131;
     padding: 10px 15px;
     border-radius: 12px;
-    font-size: 19px;
+    font-size: 15.8px;
     transition: 0.3s;
 }
 
@@ -190,6 +191,13 @@ header {
     color: white;
 }
 
+.cafes{
+    margin-left: -30px;
+} 
+
+.cafes2 {
+    margin-left: -30px;
+}
 .Mocha {
     display: flex;
     flex-direction: column;
@@ -564,7 +572,7 @@ footer {
     margin-top: 20px;
     background-color: var(--color-6);
     z-index: 10;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
