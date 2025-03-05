@@ -170,7 +170,7 @@ body{
     border-radius: 20px;
     height: 4px;
     width: 71.25px;
-    background-color: var(--color-6);
+    background-color: var(--color-6LD);
 }
 
 ._green_lines_divider ._green_line:last-child{

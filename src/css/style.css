@@ -13,7 +13,6 @@ header{
 header img{
     height: 536px;
     width: 100%;
-
     object-fit: cover;
 }
 
@@ -36,14 +35,14 @@ main .c-main {
 }
 main h1{
     font-size: 32px;
-    color: var(--color-6);
+    color: var(--color-1);
     font-family: "sora-semibold";
     line-height: 150%;
 }
 
 main p{
     font-size: 14px;
-    color: var(--color-11);
+    color: var(--color-3);
     font-family: "sora-regular";
     padding: 8px 0px 32px;
     line-height: 150%;
@@ -52,10 +51,10 @@ main p{
 
 main a{
     font-size: 16px;
-    background-color: var(--color-1);
+    background-color: var(--color-18);
     font-family: "sora-semibold";
     text-decoration: none;
-    color: var(--color-6);
+    color: var(--color-1);
     padding: 16px;
     width: 100%;
     line-height: 150%;

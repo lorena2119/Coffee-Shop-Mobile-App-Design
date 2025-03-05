@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: var(--color-12);
-    background: var(--color-13);
+    background: var(--color-25);
 }
 header{
     display: flex;
@@ -17,7 +16,7 @@ header{
 }
 header p{
     font-family: "sora-semibold";
-    color: var(--color-6);
+    color: var(--color-11);
 
 }
 header img:first-child{
@@ -25,8 +24,8 @@ header img:first-child{
     object-fit: cover;
 }
 header img:last-child{
-padding: 13px 12px 11.5px 11.53px;
-object-fit: cover;
+    padding: 13px 12px 11.5px 11.53px;
+    object-fit: cover;
 }
 
 main{
@@ -43,7 +42,7 @@ main > img{
 main .main-content .title h1{
     font-family: "sora-semibold";
     font-size: 20px;
-    color: var(--color-6);
+    color: var(--color-11);
     padding-bottom: 4px;
 }
 
@@ -66,12 +65,12 @@ main .main-content .title .rating{
 .light{
     font-family: "sora-regular";
     font-size: 12px;
-    color: var(--color-7);
+    color: var(--color-3);
 }
 
 main .main-content .title .rating .score{
     font-family: "sora-semibold";
-    color: var(--color-6);
+    color: var(--color-11);
 }
 
 main .main-content .title .rating img{
@@ -87,7 +86,7 @@ main .main-content .icons {
 
 main .main-content .icons img{
     padding: 12px;
-    background-color: var(--color-8);
+    background-color: var(--color-12);
     border-radius: 12px;
 
 }
@@ -95,7 +94,7 @@ main .main-content .icons img{
 main hr{
     height: 1px;
     border: none;
-    background-color: var(--color-4);
+    background-color: var(--color-27);
     margin: 16px;
 }
 
@@ -107,7 +106,7 @@ main .description p{
 
 main .description details{
     font-family: "sora-light";
-    color: var(--color-7);
+    color: var(--color-3);
     font-size: 14px;
     line-height: 150%;
     display: flex;
@@ -118,11 +117,13 @@ main .description details{
 main .description details p{
     font-family: "sora-light";
     font-weight: normal;
+    display: inline;
 }
 
-details>summary {
+details > summary {
     height: 63px;
     list-style: none;
+    display: inline;
 }
 summary::-webkit-details-marker {
     display: none
@@ -130,7 +131,7 @@ summary::-webkit-details-marker {
   
 summary::after {
     content: '.. Read more';
-    color: var(--color-1);
+    color: var(--color-18);
     font-family: "sora-semibold";
 }
 details[open] summary:after {
@@ -141,13 +142,11 @@ details[open] summary:after {
     padding: 0 24px 24px;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .size p{
     font-family: "sora-semibold";
-    color: var(--color-6);
+    color: var(--color-11);
     padding-bottom: 16px;
 }
 
@@ -158,19 +157,19 @@ details[open] summary:after {
 
 .size .size-container a{
     padding: 12px 43px;
-    background-color: var(--color-10);
-    border: 1px solid var(--color-4);
+    background-color: var(--color-1);
+    border: 1px solid var(--color-27);
     border-radius: 12px;
-    color: var(--color-6);
+    color: var(--color-11);
     text-decoration: none;
     font-family: "sora-regular";
     font-size: 14px;
 }
 
 .size .size-container a:active{
-    background-color: var(--color-5);
-    border: 1px solid var(--color-1);
-    color: var(--color-1);
+    background-color: var(--color-26);
+    border: 1px solid var(--color-18);
+    color: var(--color-18);
 }
 
 footer{
@@ -178,7 +177,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 16px 24px 46px;
-    background-color: var(--color-10);
+    background-color: var(--color-1);
     border-radius: 16px 16px 0px 0px;
     gap: 34px;
     position: sticky;
@@ -192,22 +191,25 @@ footer .price{
 }
 footer .price p:first-child{
     font-family: "sora-regular";
-    color: var(--color-11);
+    color: var(--color-14);
     font-size: 14px;
     line-height: 120%;
 }
 footer .price p:last-child{
     font-family: "sora-semibold";
-    color: var(--color-1);
+    font-size: 18px;
+    color: var(--color-18);
     line-height: 150%;
 }
 
 footer a{
+    text-align: center;
     padding: 16px 72px;
-    background-color: var(--color-1);
+    background-color: var(--color-18);
     border-radius: 16px;
-    color: var(--color-10);
+    color: var(--color-1);
     text-decoration: none;
     font-family: "sora-semibold";
     font-size: 16px;
+    line-height: 150%;
 }
