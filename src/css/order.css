@@ -10,7 +10,7 @@ body {
     
     margin: 0;
     padding: 16px;
-    background-color: var(--color-9DT);
+    background-color: var(--color-5);
     height: 500px;
 
     
@@ -53,7 +53,7 @@ nav {
 
 }
 .delivery-options{
-    background-color: var(--color-6);
+    background-color: var(--color-12);
     width: 327px;
     height: 43px;
     display: flex;
@@ -76,13 +76,13 @@ nav {
 
 .deliver{
     font-family: "sora-semibold";
-    background-color: var(--color-1);
-    color: var(--color-7);
+    background-color: var(--color-18);
+    color: var(--color-1);
 }
 
 .pick-up{
     font-family: "Sora-Regular";
-    color: var(--color-8);
+    color: var(--color-4);
 }
 
 /* esto es la separacion de los botones */
@@ -99,20 +99,20 @@ nav {
     font-size: 16px;
     margin: 0 0 13px 0;
     font-family: "sora-semibold";
-    color: var(--color-8);
+    color: var(--color-4);
 }
 
 .delivery-address h3 {
     font-size: 14px;
     margin: 0 0 4px 0;
     font-family: "sora-semibold";
-    color: var(--color-8);
+    color: var(--color-4);
 }
 
 .delivery-address p {
     font-size: 12px;
     font-family: "sora-Regular";
-    color: var(--color-10);
+    color: var(--color-3);
     margin: 0 0 16px 0;
 }
 
@@ -136,15 +136,15 @@ nav {
     padding: 4px;
     gap:2px;
     text-decoration: none;
-    color: var(--color-3);
+    color: var(--color-9);
     font-size: 12px;
-    background-color: var(--color-6);
+    background-color: var(--color-1);
     padding: 6px 12px;
     border-radius: 16px;
-    border: 20px;
+    border: 20px ;
     font-family: "Sora-Regular";
     
-    
+
 }
 
 .edit-add-container img {
@@ -197,7 +197,7 @@ hr{
 .item-details p {
     font-family: "Sora-Regular";
     font-size: 12px;
-    color: var(--color-10);
+    color: var(--color-3);
     margin: 0;
 }
 /* aqui se termina los detalles del item */
@@ -232,7 +232,7 @@ hr{
     display: flex;
     align-items: center;
     gap: 12px;
-    background-color: var(--color-6);
+    background-color: var(--color-1);
     padding: 16px;
     border-radius: 16px;
 }
@@ -245,7 +245,7 @@ hr{
 }
 
 .payment-summary {
-    background-color: var(--color-9);
+    background-color: var(--color-5);
     padding: 16px;
     margin-bottom: 20px;
 }
@@ -265,7 +265,7 @@ hr{
 
 .price-item p, .delivery-fee p {
     font-family: "Sora-Regular";
-    color: var(--color-10);
+    color: var(--color-9);
     margin: 0;
 }
 
@@ -315,7 +315,7 @@ b {
 }
 /* Estilo del precio */
 .method-details-2 b {
-    color: var(--color-1); 
+    color: var(--color-18); 
     font-weight: normal;
     
 }
@@ -329,7 +329,7 @@ b {
 
 
 .CAJA{
-    background-color:var(--color-6);
+    background-color:var(--color-1);
     display: flex;
     justify-self: center;
     border-radius: 20px;
@@ -359,8 +359,8 @@ b {
     width: 327px;
     height: 56px;
     transform: translateX(-50%);
-    background-color: var(--color-1);
-    color: var(--color-7);
+    background-color: var(--color-18);
+    color: var(--color-5);
     font-family: "sora-semibold";
     padding: 16px;
     border-radius: 16px;
@@ -381,5 +381,5 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .portion-count{
-    background-color: var(--color-9);
+    background-color: var(--color-5);
 }
