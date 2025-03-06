@@ -20,7 +20,7 @@
 
 ._nav_header a {
     margin-top: 68px;
-    background-color: var(--color-4);
+    background-color: var(--color-5);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -155,7 +155,7 @@ body{
 
 ._green_lines_divider {
     /* background-color:rgb(221, 18, 18);  */
-    color:rgb(3, 32, 5);
+    /* color:rgb(3, 32, 5); */
     display: flex;
     margin:9px auto;
     width: 315px;
@@ -170,7 +170,7 @@ body{
     border-radius: 20px;
     height: 4px;
     width: 71.25px;
-    background-color: var(--color-6);
+    background-color: var(--color-16);
 }
 
 ._green_lines_divider ._green_line:last-child{
